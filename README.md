@@ -1,5 +1,5 @@
-# EmoDT
-> The open-source code for the paper *EmoDT: Empathetic Dialogue Generation with Emotion Enhanced Dependency Tree*.
+# KnowDT
+> The open-source code for the paper *KnowDT: Empathetic Dialogue Generation with Knowledge Enhanced Dependency Tree*.
 
 
 ## Dependencies
@@ -18,7 +18,7 @@ The file size is out of limit, if necessary, please email: 2539719155@qq.com for
 ## Training
 
 ```sh
-python main.py --model EmoDT
+python main.py --model KnowDT
 ```
 
 The hyperparameters and ablation experiments can be modified in `/src/utils/config.py`.
@@ -27,7 +27,7 @@ The hyperparameters and ablation experiments can be modified in `/src/utils/conf
 Make sure the folder `save/test` is not empty and run the following:
 
 ```sh
-python main.py --model EmoDT --test --model_path save/test/[model-name]
+python main.py --model KnowDT --test --model_path save/test/[model-name]
 ```
 
 ## Evaluation
